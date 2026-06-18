@@ -9,7 +9,7 @@ void setupOTA_e_wifi() {
   Serial.begin(115200);
   WiFiManager wm;
   wm.setConfigPortalTimeout(60);
-  wm.startConfigPortal("EspLucas","Lucas-901");
+  wm.startConfigPortal("Esp1","Esp-01");
   bool res;
     // res = wm.autoConnect(); // auto generated AP name from chipid
     // res = wm.autoConnect("AutoConnectAP"); // anonymous ap
